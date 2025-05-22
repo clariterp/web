@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISTEMA</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="/sist.js"></script>
+</head>
+<body>
+    <DIV class="div1">
+    <h1>SISTEMA</h1>
+    <p>NUMERO1 <input type="number" id="numero1" placeholder="ingrese N°1"></p>
+    <p>NUMERO2<input type="number" id="numero2" placeholder="ingrese N°2"></p>
+    <p>RESULTADO<input type="number" id="resultado" readonly></p>
+    <p>OPERACIÓN
+        <select id="operar">
+            <option value="suma">SUMAR</option>
+            <OPTION value="resta">RESTAR</OPTION>
+            <option value="multiplicar">MULTIPLICAR</option>
+        </select>
+    </p>
+    <br>
+    <button onclick="operar()">OPERAR</button>
+
+    <h1>SISTEMA DE AUTOS</h1>
+    <p>Marca: 
+        <select id="marca"> 
+            <option value="fiat">FIAT</option>
+            <option value="ford">Ford</option>
+            <option value="toyo">TOYOTA</option>
+            <option value="reno">RENAULT</option>
+        </select>
+    </p>
+    <p>TIPO DE VEHICULO: 
+        <select id="tipo"> 
+            <option value="eco">Económico</option>
+            <option value="dep">Deportivo</option>
+            <option value="4x4">4x4</option>
+            <option value="auto">Automático</option>
+        </select>
+    </p>
+    <p id="resultado2"></p>
+    <button onclick="autos()">PRECIOS</button>
+
+
+</DIV>
+ </body>
+ 
